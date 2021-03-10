@@ -1,0 +1,11 @@
+.completed {
+  text-decoration: line-through;
+}
+
+li , button {
+  cursor: pointer;
+}
+
+.coloreCinza {
+  background-color: gray;
+}

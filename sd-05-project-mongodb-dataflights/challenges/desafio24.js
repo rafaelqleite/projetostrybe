@@ -1,0 +1,1 @@
+db.voos.find({$and: [{litrosCombustivel: {$lte: 600 }}, {litrosCombustivel: {$exists: true} }, { "empresa.nome": { $not: {$in: ["GOL", "AZUL"] } } } ]  }, {_id: 0, vooId: true, "empresa.nome": true, litrosCombustivel: true }).limit(1).pretty();

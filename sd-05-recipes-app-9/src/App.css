@@ -1,0 +1,48 @@
+.app--main-structure {
+  height: 100vh;
+  /* padding: 10px; */
+  /* background-image: url('./images/masterchef.jpg'); */
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* #meals {
+  width: 360px;
+  height: 640px;
+  border: 2px solid black;
+  background: rgb(179, 177, 177);
+  font-family: sans-serif;
+  color: black;
+  display: flex;
+  justify-items: center;
+  margin: auto;
+}
+
+.main-container {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+}
+
+.menu {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+} */

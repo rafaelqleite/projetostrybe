@@ -1,0 +1,29 @@
+.color-palette {
+  height: 42px;
+  width: 168px;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.pixel-board {
+  line-height: 0;
+  padding: 0;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: content-box;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.color#preto {
+  background-color: black;
+}

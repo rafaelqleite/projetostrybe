@@ -1,0 +1,1 @@
+db.voos.find({payload: {$gt: 7000} }, {_id: 0, vooId: true, mes: true, ano: true}).limit(1).pretty();

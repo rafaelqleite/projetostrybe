@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/xhtml; charset=UTF-8" />
+  <title>Projeto Facebook - Rafael Leite e Maurício </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header class="top-bar">
+    <div class="esquerdaTopo">
+      <img class="facebook-logo" src="./imgs/facebook-logo.png" width="170">
+    </div>
+    <div class="ladoDireito">
+      <div class="emColuna">
+        <label form="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+        <input type="text" id="user-email-phone" placeholder="Seu email">
+
+      </div>
+      <div class="emColuna">
+        <label form="password-label" id="user-password">Senha</label>
+        <input type="password" id="user-password" placeholder="Senha">
+        <a href="">Forgot Account?</a>
+      </div>
+      <button id="button-login" class="button-login">Entrar</button>
+    </div>
+  </header>
+  <article>
+    <div class="left">
+      <div class="leftmenor">
+        <p class="textoFacebook">
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+        </p>
+        <img id="facebook-networking" src="./imgs/networking.png">
+      </div>
+    </div>
+    <div class="right">
+      <div class="limitaTamanho">
+        <h1>Abra uma conta</h1>
+        <h3>É rápido e fácil.</h3>
+        <p class="teste">
+          <input type="text" class="usuario" placeholder="Nome">
+          <input type="text" class="sobrenome" placeholder="Sobrenome"></p>
+
+        <p class="celular">
+          <input type="text" placeholder="Celular ou email"><br>
+        </p>
+        <p class="password">
+          <input type="password" id="novasenha" placeholder="Nova senha" class="novasenha"><br>
+        </p>
+        <h4>Data de nascimento</h4>
+        <label form="estado">Estado:
+          <select class="custom-select" name="estado" id="estado" required>
+            <option value="">Escolha</option>
+          </select>
+        </label>
+
+        <h4>Gênero</h4>
+        <label class="radio-inline" form="mulher"><input type="radio" name="gender" value="Feminino"
+            id="mulher">Feminino</label>
+        <label class="radio-inline" form="homem"><input type="radio" name="gender" value="Masculino"
+            id="homem">Masculino</label>
+        <label class="radio-inline" form="personalizado"><input type="radio" name="gender" value="Personalizado"
+            id="personalizado">Personalizado</label><br>
+        <button id="facebook-register">Cadastre-se</button>
+      </div>
+    </div>
+  </article>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

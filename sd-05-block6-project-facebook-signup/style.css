@@ -1,0 +1,135 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  height: 20px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: #3b5998;
+  border-bottom: 1px solid black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: space-around;
+}
+
+.esquerdaTopo {
+  padding-top: 20px;
+  width: 350px;
+}
+
+.ladoDireito {
+  display: flex;
+  font-size: 12px;
+}
+
+.emColuna {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+article {
+  background: linear-gradient(white, #d3d8e8);
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  height: 540px;
+}
+
+.left {
+  padding-left: 140px;
+  width: 50%;
+}
+
+p {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+h4 {
+  color: grey;
+}
+
+.leftmenor {
+  width: 380px;
+}
+
+.textoFacebook {
+  color: #0e385f;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.right {
+  width: 50%;
+}
+
+.limitaTamanho {
+  width: 480px;
+}
+
+.teste , .celular , .password {
+  display: flex;
+}
+
+input {
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+.celular input , .password input , .teste input {
+  border: 1px solid grey;
+  border-radius: 8px;
+  flex-grow: 1;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.ladoDireito input {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+.usuario {
+  margin-right: 8px;
+}
+
+.button-login {
+  align-self: center;
+  display: flex;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 4px;
+}
+
+.button-login , .button-login:focus {
+  background-color: #4267b2;
+  border: 1px solid rgba(0, 0, 0, 0.308);
+  color: white;
+}
+
+.button-login:hover {
+  background-color: #3b5998;
+  cursor: pointer;
+}
+
+/*
+@font-face {
+  font-family: SFProText-Regular;
+  src: url('./fonts/SFProText');
+}
+ */
