@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0",
     "acorn": ">=7.1.1",
     "minimist": ">=1.2.3",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "^4.0.3",
     "serialize-javascript": ">=2.1.1"
   },
   "scripts": {
@@ -34,7 +34,6 @@
   "devDependencies": {
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
-    "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1"
   }
 }
